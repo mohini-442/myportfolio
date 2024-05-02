@@ -1,4 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+ 
 
+.parent-skill {
+    width: 200px;
+    height: auto;
+}
+
+.skill { 
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress {
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background: linear-gradient(280deg, #1e2024, #23272b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-number {
+    font-family: 'Poppins', sans-serif;
+    color: #B75CFF; 
+}
+
+ 
