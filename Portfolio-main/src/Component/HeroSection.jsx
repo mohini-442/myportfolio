@@ -44,7 +44,7 @@ const HeroSection = () => {
           </div>
 
           <div className="Right-part flex lg:w-2/4 me-7">
-            <img className="grayscale absolute top-0 w-[60%] h-[90vh] right-0  object-cover" src={me} />
+            <img className=" w-full" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif" />
           </div>
         </div>
       </section>
