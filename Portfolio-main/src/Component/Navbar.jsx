@@ -9,16 +9,16 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
   return (
     <>
-      <div className="bg-black border-b-2 border-[#B75CFF] min-h-[10vh] flex items-center">
-        <nav className="w-full px-24 lg:px-36 mx-auto relative ">
+      <div className="bg-black border-b border-[#B75CFF] min-h-[10vh] flex items-center">
+        <nav className="w-full px-10 xl:px-36 mx-auto relative ">
           <div className="flex justify-between items-center">
             <div className="">
-              <a href=""><img src="https://i.ibb.co/K0z1sNC/mylogo.jpg" alt="mylogo" className="w-[200px] h-[110px]" /></a>
+              <a href=""><img src="https://i.ibb.co/K0z1sNC/mylogo.jpg" alt="mylogo" className="w-[130px] md:w-[130px] h-[80px] md:h-[80px]" /></a>
             </div>
             <div className="Right-Navbar">
               <ul className="flex gap-5 justify-between 
             items-center 
-            text-2xl ff-poppins
+            text-xl ff-poppins
           text-white
             text-nowrap
             duration-[0.5s]
@@ -47,12 +47,12 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <div className={`h-screen w-52 p-3 border-4 border-black 
+      <div className={`h-screen w-[50%] p-3 flex items-center justify-center
            ${menu === false ? "hidden" : "block"}  
             absolute 
             top-0
             right-0`} style={{ background: "rgba(10, 61, 98,1.0)" }}>
-        <ul className="flex justify-between
+        <ul className="flex justify-center
             flex-col
             items-center pt-2 
             text-xl font-serif
@@ -80,7 +80,7 @@ const Navbar = () => {
             <NavLink to="/Contact" className="hover:text-[#B75CFF]">Contact</NavLink>
           </li>
 
-          <MdCancel className="text-4xl absolute top-0 right-0 hover:text-[#B75CFF]" onClick={() => setMenu(false)} />
+          <MdCancel className="text-4xl absolute top-2 right-2 hover:text-[#B75CFF]" onClick={() => setMenu(false)} />
         </ul>
       </div>
     </>

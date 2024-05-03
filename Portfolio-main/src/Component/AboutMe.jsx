@@ -4,29 +4,28 @@ const AboutMe = () => {
   return (
     <>
            <section
-        style={{backgroundImage: "linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%)"}}
-        className="sm:h-screen flex items-center w-full lg:flex-nowrap sm:flex-wrap"
+        className="sm:h-[90vh] flex items-center w-full lg:flex-nowrap sm:flex-wrap bg-black"
       >
-        <div className="Left-part flex flex-col lg:w-2/4  items-center">
-          <div className="My-detail w-4/4  p-2 my-2">
-            <h1 className="text-white text-6xl ms-24 font-bold text-nowrap my-3">
+        <div className="Left-part flex flex-col lg:w-2/4 xl:pl-12 items-center">
+          <div className="My-detail p-2 my-2">
+            <h1 className="text-white text-6xl ms-24 font-bold text-nowrap">
               About Me
             </h1>
-            <h3 className="text-white text-2xl font-serif ms-24 my-3">Freelance UI/UX & Website Designer</h3>
-            <p className="text-white ms-24 my-2 text-2xl">
+            <h3 className="text-[#B75CFF] text-3xl font-serif ms-24 pt-1">Frontend deveploper</h3>
+            <p className="text-white ms-24 my-2 ff-poppins text-2xl">
               I'M vednidhi,a passionate web developer with a knack for turning
               ideas into captivating online experiences.
             </p>
-            <div className='border-2 border-white w-96 flex justify-between ms-24 my-4 p-2'>
-                 <p className='text-white text-xl'>Name</p><p className='text-white text-xl'>:</p><p className='text-white text-xl'> Vednidhi</p>
+            <div className='border-2 border-[#B75CFF] w-96 flex justify-between ms-24 my-4 p-2'>
+                 <p className='text-white text-xl'>Name</p><p className='text-white text-xl'>:</p><p className='text-white text-xl'>Mohini</p>
             </div>
 
-            <div className='border-2 border-white w-96 flex justify-between ms-24 my-4 p-2'>
-                 <p className='text-white text-xl'>Email</p><p className='text-white text-xl'>:</p><p className='text-white text-xl'>Shanukumar7988@gmail.com</p>
+            <div className='border-2 border-[#B75CFF] w-96 flex justify-between ms-24 my-4 p-2'>
+                 <p className='text-white text-xl'>Email</p><p className='text-white text-xl'>:</p><p className='text-white text-xl'>mohinikarwasra598@gmail.cpm</p>
             </div>
 
-            <div className='border-2 border-white w-96 flex justify-between ms-24 my-4 p-2'>
-                 <p className='text-white text-xl'>Phone no.</p><p className='text-white text-xl'>:</p><p className='text-white text-xl'>9306515029</p>
+            <div className='border-2 border-[#B75CFF] w-96 flex justify-between ms-24 my-4 p-2'>
+                 <p className='text-white text-xl'>Phone no.</p><p className='text-white text-xl'>:</p><p className='text-white text-xl'>9034489871</p>
             </div>
           </div>
         </div>

@@ -6,10 +6,10 @@ const HeroSection = () => {
   return (
     <>
       <section
-        className="sm:h-[90vh] w-full px-36 mx-auto sm:flex-wrap flex flex-col items-center justify-center bg-black"
+        className="h-[90vh] w-full px-10 xl:px-36 mx-auto  flex flex-col items-center justify-center bg-black"
       >
-        <div className="flex ">
-          <div className=" lg:w-1/2 pl-12 flex justify-center flex-col">
+        <div className="lg:flex ">
+          <div className=" lg:w-1/2 xl:pl-8 flex justify-center  items-center lg:items-start flex-col">
             <div className="Social-links flex gap-2">
               <div
                 className="Instagram border-2 border-[#B75CFF] w-12 h-12 flex items-center justify-center rounded-full"
@@ -29,13 +29,13 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="My-detail pt-4 my-2">
-              <h4 className="text-white text-2xl ff-poppins ">Hello!</h4>
-              <h1 className="text-white text-6xl  font-bold ff-poppins pt-2 text-nowrap">
-                I'm <span className="text-6xl ff-poppins text-[#B75CFF]">Mohini</span>
+            <div className="My-detail pt-3 lg:pt-4 lmy-2 flex items-center lg:items-start text-center lg:!text-start flex-col">
+              <h4 className="text-white text-xl lg:text-2xl ff-poppins ">Hello!</h4>
+              <h1 className="text-white text-5xl lg:text-6xl  font-bold ff-poppins lg:pt-2 text-nowrap">
+                I'm <span className="text-5xl lg:text-6xl ff-poppins text-[#B75CFF]">Mohini</span>
               </h1>
-              <h3 className="text-white text-3xl ff-poppins pt-1">Frontend developer</h3>
-              <p className="text-white ff-poppins my-2 text-2xl">
+              <h3 className="text-white text-2xl lg:text-3xl ff-poppins pt-1">Frontend developer</h3>
+              <p className="text-white ff-poppins my-2 text-xl lg:text-2xl">
                 I'M vednidhi,a passionate web developer with a knack for turning
                 ideas into captivating online experiences.
               </p>
