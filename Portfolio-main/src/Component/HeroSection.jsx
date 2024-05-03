@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <>
       <section
-        className="h-[90vh] w-full px-10 xl:px-36 mx-auto relative overflow-hidden flex flex-col items-center justify-center bg-black"
+        className="h-[90vh] w-full px-10 xl:px-36 mx-auto flex flex-col items-center justify-center bg-black"
       >
         <div className="lg:flex ">
           <div className=" lg:w-1/2 xl:pl-8 flex justify-center  items-center lg:items-start flex-col">
@@ -16,7 +16,7 @@ const HeroSection = () => {
                 className="Instagram border-2 border-[#B75CFF] w-12 h-12 flex items-center justify-center rounded-full"
                 style={{ backgroundImage: "linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%)" }}
               >
-                <a href="https://www.instagram.com/confident_coder/">
+                <a href="https://www.instagram.com/mohini_._0/" target="_blank">
                   <FaInstagram className="text-2xl  text-white hover:scale-110" />
                 </a>
               </div>
@@ -24,7 +24,7 @@ const HeroSection = () => {
                 className="Github border-2 border-[#B75CFF] w-12 h-12 flex items-center justify-center rounded-full"
                 style={{ backgroundImage: "linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%)" }}
               >
-                <a href="https://github.com/vednidhi930">
+                <a href="https://github.com/mohini-442" target="_blank">
                   <FaGithub className="text-2xl text-white hover:scale-110" />
                 </a>
               </div>
@@ -37,7 +37,7 @@ const HeroSection = () => {
               </h1>
               <h3 className="text-white text-2xl lg:text-3xl ff-poppins pt-1">Frontend developer</h3>
               <p className="text-white ff-poppins my-2 text-xl lg:text-2xl">
-                I'M vednidhi,a passionate web developer with a knack for turning
+                I'M mohini,a passionate web developer with a knack for turning
                 ideas into captivating online experiences.
               </p>
             </div>

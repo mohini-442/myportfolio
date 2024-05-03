@@ -13,7 +13,7 @@ const AboutMe = () => {
             </h1>
             <h3 className="text-[#B75CFF] text-3xl font-serif ms-24 pt-1">Frontend deveploper</h3>
             <p className="text-white ms-24 my-2 ff-poppins text-2xl">
-              I'M vednidhi,a passionate web developer with a knack for turning
+              I'M mohini,a passionate web developer with a knack for turning
               ideas into captivating online experiences.
             </p>
             <div className='border-2 border-[#B75CFF] w-96 flex justify-between ms-24 my-4 p-2'>
