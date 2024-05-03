@@ -1,12 +1,13 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import me from "../me.png"
 
 const HeroSection = () => {
   return (
     <>
       <section
-        className="h-[90vh] w-full px-10 xl:px-36 mx-auto  flex flex-col items-center justify-center bg-black"
+        className="h-[90vh] w-full px-10 xl:px-36 mx-auto relative overflow-hidden flex flex-col items-center justify-center bg-black"
       >
         <div className="lg:flex ">
           <div className=" lg:w-1/2 xl:pl-8 flex justify-center  items-center lg:items-start flex-col">
@@ -29,7 +30,7 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="My-detail pt-3 lg:pt-4 lmy-2 flex items-center lg:items-start text-center lg:!text-start flex-col">
+            <div className="My-detail relative pt-3 lg:pt-4 lmy-2 flex items-center lg:items-start text-center lg:!text-start flex-col">
               <h4 className="text-white text-xl lg:text-2xl ff-poppins ">Hello!</h4>
               <h1 className="text-white text-5xl lg:text-6xl  font-bold ff-poppins lg:pt-2 text-nowrap">
                 I'm <span className="text-5xl lg:text-6xl ff-poppins text-[#B75CFF]">Mohini</span>
@@ -43,7 +44,7 @@ const HeroSection = () => {
           </div>
 
           <div className="Right-part flex lg:w-2/4 me-7">
-            <img src="https://www.dharmishi.com/img/vectors/developer.png" />
+            <img className="grayscale absolute top-0 w-[60%] h-[90vh] right-0  object-cover" src={me} />
           </div>
         </div>
       </section>
