@@ -21,7 +21,7 @@ const AboutMe = () => {
             </div>
 
             <div className='border-2 border-[#B75CFF] w-96 flex justify-between ms-24 my-4 p-2'>
-                 <p className='text-white text-xl'>Email</p><p className='text-white text-xl'>:</p><p className='text-white text-xl'>mohinikarwasra598@gmail.cpm</p>
+                 <p className='text-white text-xl'>Email</p><p className='text-white text-xl'>:</p><p className='text-white text-xl'>mohinikarwasra598@gmail.com</p>
             </div>
 
             <div className='border-2 border-[#B75CFF] w-96 flex justify-between ms-24 my-4 p-2'>
