@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className="w-full px-24 lg:px-36 mx-auto relative ">
           <div className="flex justify-between items-center">
             <div className="">
-              <a href=""><img src="https://i.ibb.co/K0z1sNC/mylogo.jpg" alt="mylogo" className="w-[200px] h-[120px]" /></a>
+              <a href=""><img src="https://i.ibb.co/K0z1sNC/mylogo.jpg" alt="mylogo" className="w-[200px] h-[110px]" /></a>
             </div>
             <div className="Right-Navbar">
               <ul className="flex gap-5 justify-between 

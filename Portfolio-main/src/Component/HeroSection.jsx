@@ -6,10 +6,10 @@ const HeroSection = () => {
   return (
     <>
       <section
-        className="sm:h-[90vh] w-full px-36 mx-auto sm:flex-wrap flex flex-col justify-center bg-black"
+        className="sm:h-[90vh] w-full px-36 mx-auto sm:flex-wrap flex flex-col items-center justify-center bg-black"
       >
         <div className="flex ">
-          <div className=" lg:w-1/2 ">
+          <div className=" lg:w-1/2 pl-12 flex justify-center flex-col">
             <div className="Social-links flex gap-2">
               <div
                 className="Instagram border-2 border-[#B75CFF] w-12 h-12 flex items-center justify-center rounded-full"
@@ -29,7 +29,7 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="My-detail  pt-4 my-2">
+            <div className="My-detail pt-4 my-2">
               <h4 className="text-white text-2xl ff-poppins ">Hello!</h4>
               <h1 className="text-white text-6xl  font-bold ff-poppins pt-2 text-nowrap">
                 I'm <span className="text-6xl ff-poppins text-[#B75CFF]">Mohini</span>
