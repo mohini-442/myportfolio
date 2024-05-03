@@ -13,8 +13,7 @@ const Navbar = () => {
         <nav className="w-full px-24 lg:px-36 mx-auto relative ">
           <div className="flex justify-between items-center">
             <div className="">
-              {/* <h3 className=""><a href=""><NavLink className="" to="/">MyPortFolio</NavLink></a></h3> */}
-              <a href=""><h1 className="text-[#B75CFF] ff-poppins text-5xl font-bold">MyPortfolio</h1></a>
+              <a href=""><img src="https://i.ibb.co/K0z1sNC/mylogo.jpg" alt="mylogo" className="w-[200px] h-[120px]" /></a>
             </div>
             <div className="Right-Navbar">
               <ul className="flex gap-5 justify-between 
