@@ -6,44 +6,90 @@ import { FaPhone } from "react-icons/fa6";
 const Contact = () => {
   return (
     <>
-      <div className="bg-black min-h-[90vh] flex items-center flex-col justify-center">
-        <div className="w-full bg-black p-2 flex flex-col items-center">
-          <div className="w-3/5  rounded-lg">
-            <h1 className="text-5xl text-[#B75CFF] text-center ff-poppins">Contact Me</h1>
-            <p className="text-xl ff-poppins text-white text-wrap text-center pt-2">
-              In order to discuss the project in more detail,Please contact me by
-              phone <br />
-              or through social networks. The productivity will have a personal
-              meeting.if you are in Novosibirsk.
-            </p>
-          </div>
-        </div>
-        <div className=" flex">
-          <div className="w-screen bg-black flex justify-center flex-col items-center">
-
-            <div className="w-full  flex flex-col items-center">
-              <input
-                type="text"
-                className=" outline-none w-96 my-1 h-12 text-xl p-3 rounded-md border-4 border-[#B75CFF]"
-                placeholder="First Name"
-                style={{ background: "rgba(223, 228, 234,1.0)" }}
-              />
-              <input
-                type="text"
-                className="outline-none w-96 my-1 h-12 text-xl p-3 rounded-md border-4 border-[#B75CFF]"
-                placeholder="Email"
-                style={{ background: "rgba(223, 228, 234,1.0)" }}
-              />
-              <textarea
-                className="outline-none w-96 h-36 text-xl p-3 my-1 rounded-md resize-none border-4 border-[#B75CFF]"
-                placeholder="Text your message here..."
-                style={{ background: "rgba(223, 228, 234,1.0)" }}
-              />
-              <button className="bg-red-400 w-24 h-10 font-bold rounded-md my-2 opacity-80 hover:opacity-100">
-                Send
-              </button>
+      <div className="bg-black min-h-[90vh] flex items-center justify-center">
+        <div className=" md:flex items-center justify-center h-full">
+        {/* <div className=" ">
+            <div className="">
+              <div className="w-3/5  rounded-lg">
+                <h1 className="text-5xl text-[#B75CFF] text-start ff-poppins">Contact Me</h1>
+                <p className="text-xl ff-poppins text-white text-wrap text-start pt-2">
+                  In order to discuss the project in more detail,Please contact me by
+                  phone <br />
+                  or through social networks. The productivity will have a personal
+                  meeting.if you are in Novosibirsk.
+                </p>
+              </div>
             </div>
+            
+          </div> */}
+
+<div className="max-w-screen-md mx-auto p-2 sm:p-5">
+  <div className="text-start mb-16">
+    <p className="mt-4 text-sm leading-7 text-gray-500 font-regular uppercase">
+        Contact
+      </p>
+      <h3 className="text-3xl sm:text-6xl leading-normal font-extrabold tracking-tight text-white">
+        Get In <span className="text-[#B75CFF]">Touch</span>
+      </h3>
+  </div>
+  
+  <form className="w-full ff-poppins">
+  <div className="flex flex-wrap -mx-3 mb-6">
+    <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+      <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+        First Name
+      </label>
+      <input className="appearance-none block w-full bg-black text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane"/>
+      <p className="text-red-500 text-xs italic">Please fill out this field.</p>
+    </div>
+    <div className="w-full md:w-1/2 px-3">
+      <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+        Last Name
+      </label>
+      <input className="appearance-none block w-full bg-black text-gray-700 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe"/>
+    </div>
+  </div>
+  <div className="flex flex-wrap -mx-3 mb-6">
+    <div className="w-full px-3">
+      <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+        Email Address
+      </label>
+      <input className="appearance-none block w-full bg-black text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" type="email" placeholder="********@*****.**"/>
+    </div>
+  </div>
+    
+    <div className="flex flex-wrap -mx-3 mb-6">
+    <div className="w-full px-3">
+      <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+        Your Message
+      </label>
+      <textarea rows="10" className="appearance-none block w-full bg-black text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+        
+      </textarea>
+    </div>
+    <div className="flex justify-between w-full px-3">
+      <div className="md:flex md:items-center">
+        <label className="block text-gray-500 font-bold">
+          <input className="mr-2 leading-tight" type="checkbox"/>
+          <span className="text-sm">
+            Send me your newsletter!
+          </span>
+        </label>
+      </div>
+      <button className="shadow bg-[#B75CFF] hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="submit">
+        Send Message
+      </button>
+    </div>
+      
+  </div>
+    
+</form>
+</div>
+        
+          <div className="  ">
+            <img className="w-full" src="https://cdni.iconscout.com/illustration/premium/thumb/contact-us-3483604-2912020.png" alt="" />
           </div>
+         
         </div>
       </div>
     </>

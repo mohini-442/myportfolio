@@ -10,13 +10,13 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-black border-b border-[#B75CFF] min-h-[10vh] flex items-center">
-        <nav className="w-full px-10 xl:px-36 mx-auto relative ">
+        <nav className="w-full sm:px-10 xl:px-36 mx-auto relative ">
           <div className="flex justify-between items-center">
-            <div className="">
-              <a href=""><img src="https://i.ibb.co/XbFX8t6/download.jpg" alt="mylogo" className="bg-black w-[130px] md:w-[130px] h-[80px] md:h-[80px]" /></a>
+            <div className=" ">
+              <a className="block w-[130px]" href=""><img src="https://i.ibb.co/XbFX8t6/download.jpg" alt="mylogo" className="bg-black w-[130px] md:w-[130px] h-[80px] md:h-[80px]" /></a>
             </div>
             <div className="Right-Navbar">
-              <ul className="flex gap-5 justify-between 
+              <ul className="flex gap-5 max-[400px]:-translate-x-10 justify-between 
             items-center 
             text-xl ff-poppins
           text-white
@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <div className={`h-screen w-[50%] p-3 flex items-center justify-center
+      <div className={`h-screen w-full  p-3 flex items-center justify-center
            ${menu === false ? "hidden" : "block"}  
             absolute 
             top-0
